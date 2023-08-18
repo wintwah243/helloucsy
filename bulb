@@ -1,0 +1,5 @@
+<DOCTYPE html>
+<html>
+<body>
+<button onclick="openlight()">Turn on the light</button>
+<img id="myImage" src=""

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	Cats:
+	<input name="animal" type="checkbox" value="Cats">
+	Dogs:
+	<input name="animal" type="checkbox" value="Dogs">
+	<button onclick="myFunction()">Try it </button>
+	<p id="demo"></p>
+
+	<script type="text/javascript">
+		function myFunction(){
+			var x=document.getElementsByName("animal").length;
+			document.getElementById("demo").innerHTML=x;
+		}
+	</script>
+</body>
+</html>

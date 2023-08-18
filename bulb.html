@@ -1,0 +1,18 @@
+<DOCTYPE html>
+<html>
+<body>
+<button onclick="openlight()">Turn on the light</button>
+<img id="myImage" src="myImage.jpg" style="width:100px;height=150px;">
+<button onclick="closelight()">Turn off thes light</button>
+<script>
+	function openlight(){
+		var x=document.getElementarytById('myImage').src='myImage.jpg';
+		document.getElementById("myImage").innerHTML=x;
+			}
+		function closelight(){
+			var y=document.getElementById('myImage').src='C:myImage.jpg';
+			document.getElementById("myImage").innerHTML=y;
+		}
+	</script>
+</body>
+</html>
